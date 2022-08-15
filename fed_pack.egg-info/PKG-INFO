@@ -1,9 +1,11 @@
 Metadata-Version: 2.1
 Name: fed-pack
-Version: 0.0.4
+Version: 0.0.3
 Summary: A package for deploying Federated Learning using Docker and Ansible
 Author: Mohamed Hemdan
 Author-email: <mhemdan@cern.ch>
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Development Status :: 1 - Planning
 Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python :: 3
@@ -19,3 +21,4 @@ License-File: LICENSE
 This is a package for federated learning . You can use
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to write your content.
+

@@ -1,6 +1,6 @@
 LICENSE
 README.md
-pyproject.toml
+setup.py
 src/fed_pack/__init__.py
 src/fed_pack/exp.py
 src/fed_pack/trainer.py
@@ -8,4 +8,5 @@ src/fed_pack/utils.py
 src/fed_pack.egg-info/PKG-INFO
 src/fed_pack.egg-info/SOURCES.txt
 src/fed_pack.egg-info/dependency_links.txt
+src/fed_pack.egg-info/requires.txt
 src/fed_pack.egg-info/top_level.txt

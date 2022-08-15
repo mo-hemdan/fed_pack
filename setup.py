@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = 'A package for deploying Federated Learning using Docker and Ansible'
 LONG_DESCRIPTION = 'Fill this'
 
@@ -19,8 +19,10 @@ setup(
     author_email="<mhemdan@cern.ch>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
+    include_package_data=True,
     long_description=long_description,
-    packages=find_packages(),
+    packages=find_packages(where="src"),  # Required
+    package_dir={"": "src"},  # Optional
     install_requires=['setuptools>=61.0'],
     # keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
     classifiers=[

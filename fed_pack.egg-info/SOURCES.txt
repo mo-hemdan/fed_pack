@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fed_pack.egg-info/PKG-INFO
+fed_pack.egg-info/SOURCES.txt
+fed_pack.egg-info/dependency_links.txt
+fed_pack.egg-info/requires.txt
+fed_pack.egg-info/top_level.txt
