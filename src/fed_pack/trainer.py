@@ -22,7 +22,7 @@ class ClientTrainer(object):
         self.x_test, self.y_test = x_test, y_test
     
     def train(self, server_ip, fit_func):
-        if self.x_train == None or self.model == None:
+        if self.x_train is None or self.model is None:
             raise Exception("Data or Model is not provided")
         client = CifarClient(self.model, self.x_train, self.y_train, self.x_test, self.y_test, fit_func)
         fl.client.start_numpy_client(
