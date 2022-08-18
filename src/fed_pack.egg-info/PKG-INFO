@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fed-pack
-Version: 0.0.5
+Version: 0.0.15
 Summary: A package for deploying Federated Learning using Docker and Ansible
 Author: Mohamed Hemdan
 Author-email: <mhemdan@cern.ch>
